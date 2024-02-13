@@ -135,7 +135,7 @@ header{
     }
 }
 
-/* Para telas maiores que 600px */
+
 @media screen and (min-width: 1024px) {
     .cards-container {
         width: 60%;
