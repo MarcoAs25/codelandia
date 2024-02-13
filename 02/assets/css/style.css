@@ -1,0 +1,148 @@
+:root{
+    --brand-color: #7CA2F4;
+    --dark-10: #121214;
+    --dark-20: #F3F7FF;
+    --dark-30: #FFFFFF;
+    --archivo: 'Archivo', sans-serif;
+    --space-grotesk: 'Space Grotesk', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: var(--dark-30);
+    font-family: var(--archivo);
+    font-weight: 500;
+}
+
+header{
+    text-align: center;
+    padding: 1.3em;
+}
+
+.presentation-container{
+    height: 35rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--dark-30);
+}
+
+.presentation-container-image{
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-position-x: 35%;
+    background-size: cover;
+}
+
+.presentation-content{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    height: 100%;
+    padding: 1.5em;
+}
+
+.presentation-content h2{
+    margin-bottom: 1em;
+}
+.presentation-content p{
+    line-height: 2em;
+    font-weight: 400;
+}
+
+.presentation-logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3em;
+    gap: 1em;
+}
+
+.info-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 3em 1.5rem;
+   font-weight: 400;
+}
+
+.info-title{
+    font-weight: 600;
+}
+.info-content{
+    margin-top: 2rem;
+    line-height: 2em;
+    font-weight: 400;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    gap: 1em;
+    padding-bottom: 4em;
+}
+
+.grid-item {
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+}
+
+.card-image{
+    background-color: var(--dark-20);
+}
+
+.card-info{
+    text-align: left;
+}
+
+.card-info h3{
+    padding: 1em 0em 1em;
+}
+
+.card-info h2{
+    font-family: var(--space-grotesk);
+    font-weight: 500;
+}
+
+
+.card-info h4{
+    padding-bottom: 2em;
+    color: var(--brand-color);
+}
+
+/* Para telas maiores que 600px */
+@media screen and (min-width: 600px) {
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .presentation-content p{
+        width: 60%;
+    }
+}
+
+/* Para telas maiores que 600px */
+@media screen and (min-width: 900px) {
+    .cards-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .presentation-content p{
+        width: 50%;
+    }
+}
+
+/* Para telas maiores que 600px */
+@media screen and (min-width: 1024px) {
+    .cards-container {
+        width: 60%;
+        margin: auto;
+    }
+    .presentation-content{
+        width: 60%;
+        margin: auto;
+    }
+}
