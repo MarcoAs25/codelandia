@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Archivo:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo", sans-serif;
+}
+:root{
+    --brand-color: #F1A5B1;
+    --dark-10: #0B0A0A;
+    --dark-20: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container{
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-media{
+    display: none;
+}
+.social-media img{
+    cursor: pointer;
+}
+.social-media img:hover{
+    scale: 0.9;
+}
+.logo-image{
+    width: 6.13rem;
+    margin-top: 1.5rem;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.character-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.character{
+    width: 16rem;
+    height: 11.5rem;
+}
+
+.pre-title{
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 700;
+    color: var(--dark-20);
+    font-family: 'Open Sans', sans-serif;
+}
+.title{
+    font-family: 'Andada Pro', sans-serif;
+    font-size: 2.25rem;
+    line-height: 2.35rem;
+    color: var(--dark-20);
+    margin: 0.5rem auto;
+}
+.sinopse{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--dark-20);
+    margin: 1.9rem auto;
+}
+
+.cta-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2.23rem auto;
+    gap: 1.5rem;
+}
+
+.button{
+    max-width: 20.5rem;
+    width: 100%;
+    border-radius: 4px;
+    padding: 1rem 2rem 1rem 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+    border: 2px solid var(--brand-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+    cursor: pointer;
+}
+
+.button-primary:hover{
+    color: var(--dark-20);
+    background-color: transparent;
+    box-shadow: 2px 2px 5px var(--brand-color);
+}
+
+.button-primary{
+    background-color: var(--brand-color);
+    color: var(--dark-10);
+}
+
+.button-secondary{
+    background-color: transparent;
+    color: var(--dark-20);
+}
+.button-secondary:hover{
+    box-shadow: 2px 2px 5px var(--brand-color);
+}
+
+.content{
+    margin: auto 1.5rem;
+    max-width: 30rem;
+}
+.container{
+    max-width: 80rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-height: 640px) {
+    .character{
+        display: none;
+    }
+    .content{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .character{
+        display: none;
+    }
+    .content{
+        margin-top: 2rem;
+    }
+    .button{
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .social-media{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 16px;
+    }
+    .logo-image{
+        margin-bottom: 1.5rem;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .character-container{
+        margin: auto;
+        width: 100%;
+    }
+    .character{
+        width: 100%;
+        height: auto;
+        max-width: 35rem;
+    }
+    .main-content{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .cta-buttons{
+        flex-direction: row;
+        justify-content: start;
+        margin: 0;
+        padding: 0;
+    }
+    .button{
+        padding: .8rem 0.45rem .8rem 0.45rem;
+        width: 200px;
+    }
+    .container-main{
+        margin-top: 9rem;
+    }
+}
