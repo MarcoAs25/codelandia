@@ -2,8 +2,7 @@
 
 ### Este repositório contém algumas implementações dos vários desafios propostos na comunidade "Codelândia".
 
-Você pode acessar o repositório contendo os desafios clicando [aqui](https://pages.github.com/](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=0%3A1)https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=0%3A1).
-
+Você pode acessar o repositório contendo os desafios clicando [aqui](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=0%3A1).
 # Desafios
 
 * 01 - [Blog](https://marcoas25.github.io/codelandia/01)
