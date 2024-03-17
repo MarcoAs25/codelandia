@@ -1,0 +1,12 @@
+app-navigation{
+  display: none;
+}
+@media (min-width: 700px) {
+  .menu {
+    display: none;
+  }
+  app-navigation {
+    display: flex;
+    margin: auto;
+  }
+}

@@ -1,0 +1,27 @@
+.title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 2rem;
+}
+.presentation-container{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1000px;
+  margin: 3.5rem auto 0 auto;
+}
+
+.experience-card{
+  width: 100%;
+  max-width: 1000px;
+  mat-card-subtitle{
+    color: #b3afa3;
+  }
+  p{
+    text-align: left;
+  }
+}

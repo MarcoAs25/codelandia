@@ -1,0 +1,27 @@
+mat-card{
+  box-shadow: none;
+  width: 100%;
+  max-width: 350px;
+  height: 240px;
+}
+img{
+  width: 250px;
+  height: 130px;
+}
+mat-card-subtitle{
+  color: #b3afa3;
+}
+mat-card:hover{
+  box-shadow: 0 0 0 5px #69F0AE;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 300px) {
+  img{
+    width: 100%;
+    height: auto;
+  }
+}

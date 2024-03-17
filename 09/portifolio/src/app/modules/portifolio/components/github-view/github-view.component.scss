@@ -1,0 +1,44 @@
+mat-card-content{
+  display: flex;
+  flex-direction: column;
+}
+
+mat-list-item:hover{
+  cursor: pointer;
+  opacity: .7;
+}
+a{
+  text-decoration: none;
+}
+.title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 2rem;
+}
+.presentation-container{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1000px;
+  margin: 3.5rem auto 0 auto;
+}
+mat-card{
+  width: 100%;
+  max-width: 1000px;
+  height: 460px;
+  mat-card-content{
+    padding: 1rem;
+    overflow-y: auto;
+    scrollbar-color: #303030 #424242;
+  }
+}
+
+.not-found{
+  font-style: italic;
+  margin: auto;
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+.title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 2rem;
+}
+
+.sub-title{
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 21px;
+}
+
+.text{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+.presentation-container{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1000px;
+  margin: 3.5rem auto 0 auto;
+}
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1000px;
+}
