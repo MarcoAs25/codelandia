@@ -1,0 +1,6 @@
+<div class="presentation-container">
+  <span class="text-center title">Tecnologias</span>
+  <div class="grid">
+    <app-technology-card *ngFor="let image of images" [imageUrl]="image.url" [tooltip]="image.tooltip"></app-technology-card>
+  </div>
+</div>

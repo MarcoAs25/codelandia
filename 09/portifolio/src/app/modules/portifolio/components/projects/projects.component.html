@@ -1,0 +1,6 @@
+<div class="presentation-container">
+  <span class="text-center title">Projetos</span>
+  <div class="grid">
+    <app-projects-card *ngFor="let project of projects" [tooltip]="project.image.tooltip" [imageUrl]="project.image.url" [projectName]="project.projectName" [projectDetails]="project.projectDetails" [projectUrl]="project.projectUrl"></app-projects-card>
+  </div>
+</div>

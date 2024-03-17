@@ -1,0 +1,19 @@
+<div class="mat-typography app-frame mat-app-background w-100" fxLayout="column">
+  <app-header (onToggle)="drawer.toggle()"></app-header>
+  <mat-drawer-container class="container" autosize hasBackdrop="false">
+
+    <mat-drawer #drawer class="sidenav" mode="over" position="start">
+      <app-navigation (onClickItem)="drawer.toggle()" [column_mode]="true"></app-navigation>
+    </mat-drawer>
+
+    <div class="content-container">
+      <app-about-me id="sobremim"></app-about-me>
+      <app-technology [images]="imagens" id="tecnologias"></app-technology>
+      <app-projects [projects]="projects" id="projetos"></app-projects>
+      <app-experience [experiences]="experiences" id="experiencia"></app-experience>
+      <app-github-view id="certificados" repository="MarcoAs25/Certificados"></app-github-view>
+    </div>
+    <app-footer></app-footer>
+
+  </mat-drawer-container>
+</div>

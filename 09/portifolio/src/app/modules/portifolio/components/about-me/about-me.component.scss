@@ -1,0 +1,98 @@
+button{
+  min-width: 165px
+}
+
+.action-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.presentation-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  width: 100%;
+  max-width: 1000px;
+  text-align: left;
+  margin: 2rem auto 0rem auto;
+  h1{
+    text-align: left;
+  }
+  span{
+    color: #b3afa3;
+  }
+}
+
+.text-center{
+  text-align: center;
+}
+
+.title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 2rem;
+}
+
+.sub-title{
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 21px;
+}
+
+.text{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.about-me-container{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 750px;
+  margin: 3.5rem auto 0px auto;
+  p{
+    color: #b3afa3;
+  }
+}
+.profile-pic{
+  display: none;
+}
+.art-resume{
+  width:250px;
+}
+
+@media (max-width: 400px) {
+  .action-content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .art-resume{
+    display: none;
+  }
+  .profile-pic{
+    display: block;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #69F0AE;
+  }
+  .presentation-container{
+    justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: center;
+    h1{
+      text-align: center;
+    }
+  }
+}

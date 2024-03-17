@@ -1,0 +1,68 @@
+<ng-container *ngIf="column_mode; else rowLayout">
+  <mat-nav-list class="mynav fxcolumn">
+    <a matLine href="#sobremim">
+      <mat-list-item (click)="onClick()" class="w-100">
+        Sobre mim
+      </mat-list-item>
+    </a>
+
+
+    <a matLine href="#tecnologias">
+      <mat-list-item (click)="onClick()" class="w-100">
+        Tecnologias
+      </mat-list-item>
+    </a>
+
+    <a matLine href="#projetos">
+      <mat-list-item (click)="onClick()" class="w-100">
+        Projetos
+      </mat-list-item >
+    </a>
+    <a matLine href="#experiencia">
+      <mat-list-item (click)="onClick()" class="w-100">
+        Experiencia
+      </mat-list-item>
+    </a>
+
+    <a matLine href="#certificados">
+      <mat-list-item (click)="onClick()" class="w-100">
+        Certificados
+      </mat-list-item>
+    </a>
+
+  </mat-nav-list>
+</ng-container>
+
+<ng-template #rowLayout>
+  <mat-nav-list class="mynav fxrow">
+    <a matLine href="#sobremim">
+      <mat-list-item >
+        Sobre mim
+      </mat-list-item>
+    </a>
+
+
+    <a matLine href="#tecnologias">
+      <mat-list-item >
+        Tecnologias
+      </mat-list-item>
+    </a>
+
+    <a matLine href="#projetos">
+      <mat-list-item >
+        Projetos
+      </mat-list-item >
+    </a>
+    <a matLine href="#experiencia">
+      <mat-list-item >
+        Experiencia
+      </mat-list-item>
+    </a>
+
+    <a matLine href="#certificados">
+      <mat-list-item >
+        Certificados
+      </mat-list-item>
+    </a>
+  </mat-nav-list>
+</ng-template>

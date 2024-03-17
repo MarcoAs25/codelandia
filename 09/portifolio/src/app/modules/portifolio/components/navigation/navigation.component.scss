@@ -1,0 +1,21 @@
+a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.mynav{
+  display: flex;
+}
+.fxcolumn {
+  flex-direction: column;
+}
+.fxrow {
+  flex-direction: row;
+}
+mat-list-item{
+  width: 130px;
+  text-align: center;
+}
+.w-100{
+  width: 100%;
+}
