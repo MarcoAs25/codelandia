@@ -115,8 +115,13 @@ export class HomeComponent {
   public experiences: ExperienceInfo[] = [
     {
       role: "Desenvolvedor Fullstack Java",
-      time: "Find Soluções: Jan/2023 - Fev/2024",
-      tasks: "Trabalhei no desenvolvimento de módulos para o aplicativo App Cidades, atendendo demandas de prefeituras e câmaras municipais em várias cidades do Brasil. Utilizou-se Java (Spring) e Angular no desenvolvimento full-stack. Alguns destaques incluem: Criação de um sistema de agendamento de serviços com formulários dinâmicos, Desenvolvimento de um sistema de geração de múltiplas credenciais, integração e manutenção de diversas funcionalidades com consultas em API externas."
+      time: "Find Soluções: Ago/2024 - Atualmente",
+      tasks: "Atuação no desenvolvimento de módulos para o aplicativo App Cidades, atendendo prefeituras e câmaras municipais em diversas regiões do Brasil, utilizando Java (Spring) e Angular. Principais destaques: Criação do sistema de zoneamento escolar, otimizando o acesso ao transporte público por rotas específicas; sistema de vagas de emprego com cadastro de empresas, publicação de vagas e dashboards com métricas; sistema de tickets de feira, que permite a concessão de valores para compra em feiras municipais; criação de páginas e integração com API para autenticação em hotspot Mikrotik, fornecendo internet gratuita à população; melhorias de performance em dashboards, com foco em responsividade e experiência do usuário."
+    },
+    {
+      role: "Desenvolvedor Fullstack Java (Estágio)",
+      time: "Find Soluções: Jun/2023 - Fev/2024",
+      tasks: "Atuação como estagiário no desenvolvimento full-stack utilizando Java (Spring/Spring Boot) e Angular no App Cidades, plataforma voltada para gestão pública. Principais entregas: Criação de sistema de agendamento de serviços com formulários dinâmicos e customizáveis por entidade; desenvolvimento de sistema de geração de credenciais personalizadas com templates reutilizáveis e integração com outros módulos; integração de APIs externas REST e GraphQL para ampliar a interoperabilidade da plataforma."
     },
     {
       role: "Bolsista de Iniciação Científica",
